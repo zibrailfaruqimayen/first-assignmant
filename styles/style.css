@@ -154,30 +154,101 @@
     height: 300px;
     left: 230px;
     top: 2221.96px;
-    
-    background-image: url('../images/watch.png') ;
+
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url('../images/watch.png');
     background-size: contain;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     margin: 130px 400px;
 }
-.contact-text{
-    
+
+.contact-text {
+
     width: 459px;
     height: 94px;
     font-family: 'Work Sans';
     font-weight: 700;
     font-size: 40px;
-    padding:30px ;
+    padding: 30px;
     padding-left: 70px;
 }
-.btn-call{
+
+.btn-call {
     background: #FFFFFF;
-border-radius: 5px;
-width: 160px;
+    border-radius: 5px;
+    width: 160px;
+    height: 64px;
+    color: #005FAC;
+    border: 0;
+    margin-left: 70px;
+    margin-bottom: 60px;
+    margin-top: 25px;
+}
+
+/* footer section */
+
+.footer {
+     background-color: #151414;
+    width: 2032px;
+    height: 577px;
+    display: flex;
+    
+    
+}
+
+.footer-text {
+    margin: 130px 230px;
+    padding: 100px;
+
+}
+
+.footer-titel {
+    font-family: 'Work Sans';
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 45px;
+    padding-bottom: 20px;
+    
+}
+
+.footer-description {
+    font-family: 'Work Sans';
+    color: #FFFFFF;
+    font-weight: 100;
+    font-size: 16px;
+    padding-bottom: 20px;
+    
+    
+
+}
+
+.footer-contact {
+    font-family: 'Work Sans';
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 15px 0;
+    
+}
+.sub{
+    font-family: 'Work Sans';
+    color: #FFFFFF;
+    font-weight: 600;
+font-size: 25px;
+padding-bottom: 20px;
+
+
+}
+.btn-sub{
+    font-family: 'Inter';
+    width: 170.11px;
 height: 64px;
-color: #005FAC;
+background: #005FAC;
+border-radius: 8px;
 border: 0;
-margin-left: 70px;
-margin-bottom: 60px;
-margin-top: 25px;
+color: #FFFFFF;
+font-weight: 600;
+font-size: 20px;
+margin-top: 15px;
+
+
 }
