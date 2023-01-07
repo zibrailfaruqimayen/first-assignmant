@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: 0;
+    
 }
 
 .banner {}
@@ -140,4 +140,7 @@ font-size: 30px;
 font-size: 25px;
 color: #737272;
 }
-
+/* contact section */
+.contact{
+    
+}
