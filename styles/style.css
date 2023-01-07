@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    
+
 }
 
 .banner {}
@@ -91,10 +91,11 @@
     margin-top: 30px;
 
 }
-.main-ul li:before{
+
+.main-ul li:before {
     content: '✓';
     color: greenyellow;
-    
+
 }
 
 .main-ul {
@@ -109,38 +110,74 @@
 
 /* plan section */
 
-.plans{
+.plans {
     margin: 0 700px;
     text-align: center;
     padding-top: 130px;
     padding-bottom: 50px;
     font-weight: 700;
-font-size: 40px;
-font-family: 'Work Sans';
+    font-size: 40px;
+    font-family: 'Work Sans';
 }
 
 
 
-.plans-container{
-    margin: 0 500px;
+.plans-container {
+    margin: 0 400px;
     display: flex;
-    gap: 90px;
+    gap: 120px;
     align-items: center;
     justify-items: center;
-    position: absolute;
     text-align: center;
-}
-.plans-title{
-    font-weight: 700;
-font-size: 30px;
+    padding-bottom: 70px;
+    padding-left: 80px;
+
 
 }
-.plan-description{
-    font-weight: 500;
-font-size: 25px;
-color: #737272;
+
+.plans-title {
+    font-weight: 700;
+    font-size: 30px;
+
 }
+
+.plan-description {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
 /* contact section */
-.contact{
+
+.contact {
+    width: 1140px;
+    height: 300px;
+    left: 230px;
+    top: 2221.96px;
     
+    background-image: url('../images/watch.png') ;
+    background-size: contain;
+    background-repeat: no-repeat; 
+    margin: 130px 400px;
+}
+.contact-text{
+    
+    width: 459px;
+    height: 94px;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 40px;
+    padding:30px ;
+    padding-left: 70px;
+}
+.btn-call{
+    background: #FFFFFF;
+border-radius: 5px;
+width: 160px;
+height: 64px;
+color: #005FAC;
+border: 0;
+margin-left: 70px;
+margin-bottom: 60px;
+margin-top: 25px;
 }
