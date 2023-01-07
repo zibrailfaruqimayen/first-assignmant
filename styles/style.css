@@ -117,8 +117,27 @@
     font-weight: 700;
 font-size: 40px;
 font-family: 'Work Sans';
-
-
 }
 
+
+
+.plans-container{
+    margin: 0 500px;
+    display: flex;
+    gap: 90px;
+    align-items: center;
+    justify-items: center;
+    position: absolute;
+    text-align: center;
+}
+.plans-title{
+    font-weight: 700;
+font-size: 30px;
+
+}
+.plan-description{
+    font-weight: 500;
+font-size: 25px;
+color: #737272;
+}
 
